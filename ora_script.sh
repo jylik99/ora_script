@@ -105,8 +105,8 @@ if [[ $MAINNET_CHOICE == "Yes" || $MAINNET_CHOICE == "yes" ]]; then
     read -p "Enter your HTTP URL for Ethereum Mainnet: " MAINNET_HTTP
 fi
 
-read -p "Enter your WSS URL for Ethereum Sepoila: " SEPOLIA_WSS
-read -p "Enter your HTTP URL for Ethereum Sepoila: " SEPOLIA_HTTP
+read -p "Enter your WSS URL for Ethereum Sepolia: " SEPOLIA_WSS
+read -p "Enter your HTTP URL for Ethereum Sepolia: " SEPOLIA_HTTP
 
 cat <<EOF > .env
 ############### Sensitive config ###############
